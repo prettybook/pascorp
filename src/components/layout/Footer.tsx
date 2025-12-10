@@ -4,17 +4,17 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import {
   MapPin,
-  Facebook,
-  Instagram,
-  Linkedin,
+  // Facebook,  // später ergänzen
+  // Instagram, // später ergänzen
+  // Linkedin,  // später ergänzen
   MessageCircle,
+  Youtube,
 } from 'lucide-react';
 import { getWhatsAppUrl, LOCATIONS } from '@/lib/utils';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const tServices = useTranslations('services');
-  const nav = useTranslations('nav');
 
   const usaServices = [
     { key: 'greenCard', slug: 'residencia-permanente' },
@@ -48,6 +48,7 @@ export default function Footer() {
               {t('description')}
             </p>
             <div className="flex gap-4">
+              {/* Facebook - später ergänzen
               <a
                 href="#"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-secondary"
@@ -55,6 +56,8 @@ export default function Footer() {
               >
                 <Facebook className="h-5 w-5" />
               </a>
+              */}
+              {/* Instagram - später ergänzen
               <a
                 href="#"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-secondary"
@@ -62,6 +65,8 @@ export default function Footer() {
               >
                 <Instagram className="h-5 w-5" />
               </a>
+              */}
+              {/* LinkedIn - später ergänzen
               <a
                 href="#"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-secondary"
@@ -69,6 +74,7 @@ export default function Footer() {
               >
                 <Linkedin className="h-5 w-5" />
               </a>
+              */}
               <a
                 href={getWhatsAppUrl()}
                 target="_blank"
@@ -77,6 +83,15 @@ export default function Footer() {
                 aria-label="WhatsApp"
               >
                 <MessageCircle className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCyS3sUCwIZjNa1_pJO1BYRA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-secondary"
+                aria-label="YouTube"
+              >
+                <Youtube className="h-5 w-5" />
               </a>
             </div>
           </div>
