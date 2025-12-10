@@ -5,7 +5,7 @@ import { Link } from '@/i18n/routing';
 import {
   MapPin,
   // Facebook,  // später ergänzen
-  // Instagram, // später ergänzen
+  Instagram,
   // Linkedin,  // später ergänzen
   MessageCircle,
   Youtube,
@@ -57,15 +57,15 @@ export default function Footer() {
                 <Facebook className="h-5 w-5" />
               </a>
               */}
-              {/* Instagram - später ergänzen
               <a
-                href="#"
+                href="https://www.instagram.com/pas_corp/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-secondary"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </a>
-              */}
               {/* LinkedIn - später ergänzen
               <a
                 href="#"
