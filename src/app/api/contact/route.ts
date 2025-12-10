@@ -26,10 +26,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Send email using Resend
+    // Send email using Resend - clean email address from any whitespace/newlines
+    const contactEmail = (process.env.CONTACT_EMAIL || 'info@paslegalcorp.com').replace(/\s+/g, '');
     const { data, error } = await resend.emails.send({
       from: 'PAS Legal Corp <onboarding@resend.dev>',
-      to: [process.env.CONTACT_EMAIL || 'info@paslegalcorp.com'],
+      to: [contactEmail],
       replyTo: email,
       subject: `Nueva consulta de ${name} - ${service || 'General'}`,
       html: `
@@ -82,9 +83,9 @@ export async function POST(request: NextRequest) {
     });
 
     if (error) {
-      console.error('Resend error:', error);
+      console.error('Resend error:', JSON.stringify(error));
       return NextResponse.json(
-        { error: 'Failed to send email' },
+        { error: 'Failed to send email', details: error.message || JSON.stringify(error) },
         { status: 500 }
       );
     }
@@ -95,8 +96,9 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     console.error('Contact form error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     return NextResponse.json(
-      { error: 'Internal server error' },
+      { error: 'Internal server error', details: errorMessage },
       { status: 500 }
     );
   }

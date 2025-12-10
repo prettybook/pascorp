@@ -12,8 +12,8 @@ export async function generateMetadata({
 
   const title = `${t('uae.title')} | PAS Legal Corp`;
   const description = locale === 'es'
-    ? 'Servicios migratorios en Emiratos Árabes Unidos: Golden Visa, visa de trabajo, visa de negocios, visa de turista y traducciones legales en Dubai.'
-    : 'Immigration services in the United Arab Emirates: Golden Visa, work visa, business visa, tourist visa and legal translations in Dubai.';
+    ? 'Servicios migratorios en Emiratos Árabes Unidos: Golden Visa, visa de trabajo, visa de negocios, visa de turista y traducciones certificadas en Dubai.'
+    : 'Immigration services in the United Arab Emirates: Golden Visa, work visa, business visa, tourist visa and certified translations in Dubai.';
 
   return {
     title,

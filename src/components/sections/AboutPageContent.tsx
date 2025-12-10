@@ -111,7 +111,7 @@ export default function AboutPageContent() {
               viewport={{ once: true }}
             >
               <h2 className="section-title mb-6">
-                Expertos en derecho migratorio
+                Expertos en Inmigración
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 PAS Legal Corp nació con la misión de ayudar a familias e individuos
@@ -121,7 +121,7 @@ export default function AboutPageContent() {
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
                 Nuestro equipo de profesionales altamente capacitados combina
-                experiencia legal con un profundo entendimiento de las diferentes
+                amplia experiencia con un profundo entendimiento de las diferentes
                 culturas y sistemas migratorios, lo que nos permite ofrecer
                 soluciones personalizadas y efectivas.
               </p>
@@ -200,7 +200,7 @@ export default function AboutPageContent() {
               {
                 city: 'Dubai',
                 country: 'Emiratos Árabes Unidos',
-                description: 'Visas Golden, de trabajo y traducciones legales',
+                description: 'Visas Golden, de trabajo y traducciones certificadas',
               },
               {
                 city: 'Jeddah',

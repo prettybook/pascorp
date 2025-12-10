@@ -112,7 +112,7 @@ export default function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop"
-                alt="Legal consultation"
+                alt="Immigration consultation"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />

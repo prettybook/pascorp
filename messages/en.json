@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "PAS Legal Corp - Immigration Consultants",
-    "description": "Specialized immigration law consultants with offices in Orlando, Dubai, and Jeddah. Immigration services in the United States, UAE, and Saudi Arabia."
+    "description": "Specialized immigration consultants with offices in Orlando, Dubai, and Jeddah. Immigration services in the United States, UAE, and Saudi Arabia."
   },
   "nav": {
     "home": "Home",
@@ -17,7 +17,7 @@
   },
   "hero": {
     "tagline": "Committed to our clients",
-    "headline": "We are your specialized immigration law consultants",
+    "headline": "We are your specialized immigration consultants",
     "subtext": "With offices on three continents: Orlando, Dubai, and Jeddah",
     "cta1": "Schedule a consultation",
     "cta2": "View services"
@@ -44,7 +44,7 @@
     },
     "uae": {
       "title": "United Arab Emirates",
-      "description": "Visas and legal services in UAE",
+      "description": "Visas and immigration services in UAE",
       "cta": "View UAE services"
     },
     "saudi": {
@@ -58,7 +58,7 @@
     "subtitle": "Your trust is our priority",
     "experienced": {
       "title": "Experienced Team",
-      "description": "In an ever-changing world, we understand the importance of having a solid and experienced legal team by your side."
+      "description": "In an ever-changing world, we understand the importance of having a solid and experienced consulting team by your side."
     },
     "multilingual": {
       "title": "Multilingual Team",
@@ -78,7 +78,7 @@
     },
     "step2": {
       "title": "Personalized Plan",
-      "description": "We design a legal strategy tailored to your needs"
+      "description": "We design an immigration strategy tailored to your needs"
     },
     "step3": {
       "title": "Guidance",
@@ -88,7 +88,7 @@
   "team": {
     "title": "Meet our team",
     "subtitle": "Professionals committed to your success",
-    "description": "Our team of immigration law experts is dedicated to providing you with the best service and advice to achieve your goals."
+    "description": "Our team of immigration experts is dedicated to providing you with the best service and advice to achieve your goals."
   },
   "blog": {
     "title": "Latest News",
@@ -102,7 +102,7 @@
     "button": "Request an interview"
   },
   "footer": {
-    "description": "Specialized immigration law consultants with offices in Orlando, Dubai, and Jeddah.",
+    "description": "Specialized immigration consultants with offices in Orlando, Dubai, and Jeddah.",
     "servicesUSA": "USA Services",
     "servicesInternational": "International Services",
     "contact": "Contact",
@@ -140,7 +140,7 @@
     "subtitle": "Learn about our history and mission",
     "mission": {
       "title": "Our Mission",
-      "description": "To provide high-quality immigration consulting services, helping our clients achieve their goals legally and efficiently."
+      "description": "To provide high-quality immigration consulting services, helping our clients achieve their goals correctly and efficiently."
     },
     "vision": {
       "title": "Our Vision",
@@ -268,9 +268,9 @@
         "slug": "tourist-visa"
       },
       "translations": {
-        "title": "Legal Translations",
-        "description": "Certified translation services for legal documents.",
-        "slug": "legal-translations"
+        "title": "Certified Translations",
+        "description": "Certified translation services for official documents.",
+        "slug": "certified-translations"
       }
     },
     "saudi": {
@@ -291,9 +291,9 @@
         "slug": "business-visa"
       },
       "translations": {
-        "title": "Legal Translations",
+        "title": "Certified Translations",
         "description": "Certified document translation services.",
-        "slug": "legal-translations"
+        "slug": "certified-translations"
       }
     }
   }

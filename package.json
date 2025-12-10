@@ -2,7 +2,7 @@
   "name": "pascorp",
   "version": "1.0.0",
   "private": true,
-  "description": "PAS Legal Corp - Immigration Law Consultants",
+  "description": "PAS Legal Corp - Immigration Consultants",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,8 +11,8 @@
   },
   "keywords": [
     "immigration",
-    "legal",
-    "consulting"
+    "consulting",
+    "visa"
   ],
   "author": "PAS Legal Corp",
   "license": "ISC",

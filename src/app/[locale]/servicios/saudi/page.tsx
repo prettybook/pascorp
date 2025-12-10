@@ -12,8 +12,8 @@ export async function generateMetadata({
 
   const title = `${t('saudi.title')} | PAS Legal Corp`;
   const description = locale === 'es'
-    ? 'Servicios migratorios en Arabia Saudita: Golden Visa, visa de trabajo, visa de negocios y traducciones legales en Jeddah.'
-    : 'Immigration services in Saudi Arabia: Golden Visa, work visa, business visa and legal translations in Jeddah.';
+    ? 'Servicios migratorios en Arabia Saudita: Golden Visa, visa de trabajo, visa de negocios y traducciones certificadas en Jeddah.'
+    : 'Immigration services in Saudi Arabia: Golden Visa, work visa, business visa and certified translations in Jeddah.';
 
   return {
     title,

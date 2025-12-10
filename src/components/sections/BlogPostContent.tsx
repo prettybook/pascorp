@@ -180,7 +180,7 @@ export default function BlogPostContent({ post }: BlogPostContentProps) {
                         }}
                         className="text-gray-600 hover:text-secondary transition-colors text-sm"
                       >
-                        Visa de Víctima en Estados Unidos: Protección Legal
+                        Visa de Víctima en Estados Unidos: Protección Migratoria
                       </Link>
                     </li>
                     <li>

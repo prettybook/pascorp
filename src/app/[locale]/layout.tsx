@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     default: 'PAS Legal Corp | Consultores de Inmigración',
     template: '%s | PAS Legal Corp',
   },
-  description: 'Consultores especializados en derecho migratorio con oficinas en Orlando, Dubai y Jeddah. Servicios de inmigración en Estados Unidos, UAE y Arabia Saudita.',
+  description: 'Consultores especializados en inmigración con oficinas en Orlando, Dubai y Jeddah. Servicios migratorios en Estados Unidos, UAE y Arabia Saudita.',
   keywords: [
     'inmigración',
-    'abogado de inmigración',
+    'consultor de inmigración',
     'green card',
     'visa',
     'asilo',
@@ -30,7 +30,6 @@ export const metadata: Metadata = {
     'Dubai',
     'Jeddah',
     'PAS Legal Corp',
-    'immigration lawyer',
     'immigration consultant',
   ],
   authors: [{ name: 'PAS Legal Corp' }],
@@ -56,7 +55,7 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'PAS Legal Corp',
     title: 'PAS Legal Corp | Consultores de Inmigración',
-    description: 'Consultores especializados en derecho migratorio con oficinas en Orlando, Dubai y Jeddah.',
+    description: 'Consultores especializados en inmigración con oficinas en Orlando, Dubai y Jeddah.',
     images: [
       {
         url: '/images/PAS-LOGO.jpg',
@@ -69,7 +68,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PAS Legal Corp | Consultores de Inmigración',
-    description: 'Consultores especializados en derecho migratorio con oficinas en Orlando, Dubai y Jeddah.',
+    description: 'Consultores especializados en inmigración con oficinas en Orlando, Dubai y Jeddah.',
     images: ['/images/PAS-LOGO.jpg'],
   },
   verification: {

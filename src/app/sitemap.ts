@@ -20,14 +20,14 @@ const uaeServices = [
   'visa-de-trabajo',
   'visa-de-negocios',
   'visa-de-turista',
-  'traducciones-legales',
+  'traducciones-certificadas',
 ];
 
 const saudiServices = [
   'golden-visa',
   'visa-de-trabajo',
   'visa-de-negocios',
-  'traducciones-legales',
+  'traducciones-certificadas',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -144,13 +144,13 @@ function getEnglishSlug(region: string, esSlug: string): string {
       'visa-de-trabajo': 'work-visa',
       'visa-de-negocios': 'business-visa',
       'visa-de-turista': 'tourist-visa',
-      'traducciones-legales': 'legal-translations',
+      'traducciones-certificadas': 'certified-translations',
     },
     saudi: {
       'golden-visa': 'golden-visa',
       'visa-de-trabajo': 'work-visa',
       'visa-de-negocios': 'business-visa',
-      'traducciones-legales': 'legal-translations',
+      'traducciones-certificadas': 'certified-translations',
     },
   };
 

@@ -48,14 +48,14 @@ export default function Header() {
     { key: 'workVisa', slugEs: 'visa-de-trabajo', slugEn: 'work-visa' },
     { key: 'businessVisa', slugEs: 'visa-de-negocios', slugEn: 'business-visa' },
     { key: 'touristVisa', slugEs: 'visa-de-turista', slugEn: 'tourist-visa' },
-    { key: 'translations', slugEs: 'traducciones-legales', slugEn: 'legal-translations' },
+    { key: 'translations', slugEs: 'traducciones-certificadas', slugEn: 'certified-translations' },
   ];
 
   const saudiServices = [
     { key: 'goldenVisa', slugEs: 'golden-visa', slugEn: 'golden-visa' },
     { key: 'workVisa', slugEs: 'visa-de-trabajo', slugEn: 'work-visa' },
     { key: 'businessVisa', slugEs: 'visa-de-negocios', slugEn: 'business-visa' },
-    { key: 'translations', slugEs: 'traducciones-legales', slugEn: 'legal-translations' },
+    { key: 'translations', slugEs: 'traducciones-certificadas', slugEn: 'certified-translations' },
   ];
 
   const getSlug = (service: { slugEs: string; slugEn: string }) =>

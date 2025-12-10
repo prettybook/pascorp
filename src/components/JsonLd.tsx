@@ -1,9 +1,9 @@
 export function OrganizationJsonLd() {
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'LegalService',
+    '@type': 'ProfessionalService',
     name: 'PAS Legal Corp',
-    description: 'Consultores especializados en derecho migratorio con oficinas en Orlando, Dubai y Jeddah.',
+    description: 'Consultores especializados en inmigración con oficinas en Orlando, Dubai y Jeddah.',
     url: 'https://paslegalcorp.com',
     logo: 'https://paslegalcorp.com/images/PAS-LOGO.jpg',
     image: 'https://paslegalcorp.com/images/PAS-LOGO.jpg',
@@ -65,12 +65,12 @@ export function LocalBusinessJsonLd({
 }) {
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'LegalService',
+    '@type': 'ProfessionalService',
     '@id': 'https://paslegalcorp.com/#organization',
     name: 'PAS Legal Corp',
     description: locale === 'es'
-      ? 'Consultores especializados en derecho migratorio'
-      : 'Specialized immigration law consultants',
+      ? 'Consultores especializados en inmigración'
+      : 'Specialized immigration consultants',
     url: `https://paslegalcorp.com/${locale}`,
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',

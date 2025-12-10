@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "PAS Legal Corp - Consultores de Inmigración",
-    "description": "Consultores especializados en derecho migratorio con oficinas en Orlando, Dubai y Jeddah. Servicios de inmigración en Estados Unidos, UAE y Arabia Saudita."
+    "description": "Consultores especializados en inmigración con oficinas en Orlando, Dubai y Jeddah. Servicios migratorios en Estados Unidos, UAE y Arabia Saudita."
   },
   "nav": {
     "home": "Inicio",
@@ -17,7 +17,7 @@
   },
   "hero": {
     "tagline": "Comprometidos con nuestros clientes",
-    "headline": "Somos tus consultores especializados en derecho migratorio",
+    "headline": "Somos tus consultores especializados en inmigración",
     "subtext": "Con oficinas en tres continentes: Orlando, Dubai y Jeddah",
     "cta1": "Agenda una consulta",
     "cta2": "Ver servicios"
@@ -44,7 +44,7 @@
     },
     "uae": {
       "title": "Emiratos Árabes Unidos",
-      "description": "Visas y servicios legales en UAE",
+      "description": "Visas y servicios migratorios en UAE",
       "cta": "Ver servicios UAE"
     },
     "saudi": {
@@ -58,7 +58,7 @@
     "subtitle": "Tu confianza es nuestra prioridad",
     "experienced": {
       "title": "Equipo Experimentado",
-      "description": "En un mundo en constante cambio, entendemos la importancia de contar con un equipo legal sólido y experimentado a tu lado."
+      "description": "En un mundo en constante cambio, entendemos la importancia de contar con un equipo de consultores sólido y experimentado a tu lado."
     },
     "multilingual": {
       "title": "Equipo Multilingüe",
@@ -78,7 +78,7 @@
     },
     "step2": {
       "title": "Plan Personalizado",
-      "description": "Diseñamos una estrategia legal adaptada a tus necesidades"
+      "description": "Diseñamos una estrategia migratoria adaptada a tus necesidades"
     },
     "step3": {
       "title": "Acompañamiento",
@@ -88,7 +88,7 @@
   "team": {
     "title": "Conoce a nuestro equipo",
     "subtitle": "Profesionales comprometidos con tu éxito",
-    "description": "Nuestro equipo de expertos en derecho migratorio está dedicado a brindarte el mejor servicio y asesoría para alcanzar tus metas."
+    "description": "Nuestro equipo de expertos en inmigración está dedicado a brindarte el mejor servicio y asesoría para alcanzar tus metas."
   },
   "blog": {
     "title": "Últimas Noticias",
@@ -102,7 +102,7 @@
     "button": "Solicita una entrevista"
   },
   "footer": {
-    "description": "Consultores especializados en derecho migratorio con oficinas en Orlando, Dubai y Jeddah.",
+    "description": "Consultores especializados en inmigración con oficinas en Orlando, Dubai y Jeddah.",
     "servicesUSA": "Servicios USA",
     "servicesInternational": "Servicios Internacionales",
     "contact": "Contacto",
@@ -140,7 +140,7 @@
     "subtitle": "Conoce nuestra historia y misión",
     "mission": {
       "title": "Nuestra Misión",
-      "description": "Brindar servicios de consultoría migratoria de alta calidad, ayudando a nuestros clientes a alcanzar sus objetivos de manera legal y eficiente."
+      "description": "Brindar servicios de consultoría migratoria de alta calidad, ayudando a nuestros clientes a alcanzar sus objetivos de manera correcta y eficiente."
     },
     "vision": {
       "title": "Nuestra Visión",
@@ -268,9 +268,9 @@
         "slug": "visa-de-turista"
       },
       "translations": {
-        "title": "Traducciones Legales",
-        "description": "Servicios de traducción certificada de documentos legales.",
-        "slug": "traducciones-legales"
+        "title": "Traducciones Certificadas",
+        "description": "Servicios de traducción certificada de documentos oficiales.",
+        "slug": "traducciones-certificadas"
       }
     },
     "saudi": {
@@ -291,9 +291,9 @@
         "slug": "visa-de-negocios"
       },
       "translations": {
-        "title": "Traducciones Legales",
+        "title": "Traducciones Certificadas",
         "description": "Servicios de traducción certificada de documentos.",
-        "slug": "traducciones-legales"
+        "slug": "traducciones-certificadas"
       }
     }
   }

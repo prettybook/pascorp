@@ -7,7 +7,7 @@ const uaeServices = [
   { slugEs: 'visa-de-trabajo', slugEn: 'work-visa', key: 'workVisa' },
   { slugEs: 'visa-de-negocios', slugEn: 'business-visa', key: 'businessVisa' },
   { slugEs: 'visa-de-turista', slugEn: 'tourist-visa', key: 'touristVisa' },
-  { slugEs: 'traducciones-legales', slugEn: 'legal-translations', key: 'translations' },
+  { slugEs: 'traducciones-certificadas', slugEn: 'certified-translations', key: 'translations' },
 ];
 
 function findServiceBySlug(slug: string) {

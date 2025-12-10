@@ -22,7 +22,7 @@ export default function BlogListContent() {
     },
     {
       slug: 'visa-victima-estados-unidos',
-      title: 'Visa de Víctima en Estados Unidos: Protección Legal',
+      title: 'Visa de Víctima en Estados Unidos: Protección Migratoria',
       excerpt:
         'Todo lo que necesitas saber sobre las visas U y T para víctimas de delitos en Estados Unidos. Requisitos, proceso y beneficios.',
       image:
