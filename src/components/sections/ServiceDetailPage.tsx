@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
 import {
   CheckCircle,
-  Phone,
+  MessageCircle,
   ChevronDown,
   FileText,
   Clock,
@@ -214,7 +214,7 @@ export default function ServiceDetailPage({
                   rel="noopener noreferrer"
                   className="flex w-full items-center justify-center gap-2 rounded-md bg-secondary px-6 py-3 font-semibold text-white transition-all hover:bg-secondary-600"
                 >
-                  <Phone className="h-5 w-5" />
+                  <MessageCircle className="h-5 w-5" />
                   {t('contactUs')}
                 </a>
               </motion.div>

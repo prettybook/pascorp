@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { motion } from 'framer-motion';
-import { ArrowRight, Phone, Shield, Scale, Users } from 'lucide-react';
+import { ArrowRight, MessageCircle, Shield, Scale, Users } from 'lucide-react';
 import { getWhatsAppUrl } from '@/lib/utils';
 
 export default function HeroSection() {
@@ -71,7 +71,7 @@ export default function HeroSection() {
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 rounded-lg bg-white px-8 py-4 text-base font-semibold text-primary transition-all hover:bg-gray-100 hover:shadow-lg"
               >
-                <Phone className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" />
                 {t('cta1')}
               </a>
               <Link

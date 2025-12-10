@@ -5,15 +5,13 @@ import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
 import {
-  Phone,
-  Mail,
   MapPin,
   Clock,
   MessageCircle,
   Send,
   CheckCircle,
 } from 'lucide-react';
-import { PHONE_NUMBER, PHONE_HREF, getWhatsAppUrl, LOCATIONS } from '@/lib/utils';
+import { getWhatsAppUrl, LOCATIONS } from '@/lib/utils';
 
 interface FormData {
   name: string;
@@ -28,6 +26,7 @@ export default function ContactPageContent() {
   const tServices = useTranslations('services');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
 
   const {
     register,
@@ -38,12 +37,29 @@ export default function ContactPageContent() {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    console.log('Form submitted:', data);
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    reset();
+    setSubmitError(false);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+
+      setIsSubmitted(true);
+      reset();
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setSubmitError(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const services = [
@@ -240,6 +256,12 @@ export default function ContactPageContent() {
                         </>
                       )}
                     </button>
+
+                    {submitError && (
+                      <p className="mt-4 text-center text-sm text-red-600">
+                        {t('form.error')}
+                      </p>
+                    )}
                   </div>
                 </form>
               )}
@@ -258,22 +280,6 @@ export default function ContactPageContent() {
                 </h2>
 
                 <div className="space-y-6">
-                  {/* Phone */}
-                  <div className="flex items-start gap-4">
-                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-secondary/10">
-                      <Phone className="h-6 w-6 text-secondary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-primary">{t('info.phone')}</h3>
-                      <a
-                        href={PHONE_HREF}
-                        className="text-gray-600 hover:text-secondary transition-colors"
-                      >
-                        {PHONE_NUMBER}
-                      </a>
-                    </div>
-                  </div>
-
                   {/* WhatsApp */}
                   <div className="flex items-start gap-4">
                     <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-green-100">

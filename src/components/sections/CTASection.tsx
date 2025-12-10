@@ -2,8 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { Phone, MessageCircle, ArrowRight } from 'lucide-react';
-import { getWhatsAppUrl, PHONE_NUMBER, PHONE_HREF } from '@/lib/utils';
+import { MessageCircle, ArrowRight } from 'lucide-react';
+import { getWhatsAppUrl } from '@/lib/utils';
 
 export default function CTASection() {
   const t = useTranslations('cta');
@@ -65,13 +65,6 @@ export default function CTASection() {
                 <MessageCircle className="h-5 w-5" />
                 {t('button')}
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </a>
-              <a
-                href={PHONE_HREF}
-                className="flex items-center justify-center gap-2 w-full rounded-lg border-2 border-white/30 bg-transparent px-6 py-4 font-semibold text-white transition-all hover:border-white hover:bg-white/10"
-              >
-                <Phone className="h-5 w-5" />
-                {PHONE_NUMBER}
               </a>
             </div>
           </motion.div>

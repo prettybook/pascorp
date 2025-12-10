@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import { useParams } from 'next/navigation';
-import { Menu, X, ChevronDown, Phone, Globe } from 'lucide-react';
+import { Menu, X, ChevronDown, MessageCircle, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { getWhatsAppUrl } from '@/lib/utils';
@@ -250,7 +250,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-primary-700 transition-colors"
             >
-              <Phone className="h-4 w-4" />
+              <MessageCircle className="h-4 w-4" />
               {t('schedule')}
             </a>
           </div>
@@ -431,7 +431,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 rounded-md bg-primary px-4 py-3 text-sm font-semibold text-white mt-2"
                 >
-                  <Phone className="h-4 w-4" />
+                  <MessageCircle className="h-4 w-4" />
                   {t('schedule')}
                 </a>
               </div>

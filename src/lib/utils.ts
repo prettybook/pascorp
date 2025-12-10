@@ -16,9 +16,6 @@ export function getWhatsAppUrl(message?: string) {
   return baseUrl;
 }
 
-export const PHONE_NUMBER = '+1 689 317 9213';
-export const PHONE_HREF = 'tel:+16893179213';
-
 export const LOCATIONS = {
   orlando: {
     city: 'Orlando',

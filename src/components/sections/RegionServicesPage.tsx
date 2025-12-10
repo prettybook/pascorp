@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
-import { ArrowRight, Landmark, Building2, Building, Phone } from 'lucide-react';
+import { ArrowRight, Landmark, Building2, Building, MessageCircle } from 'lucide-react';
 import { getWhatsAppUrl } from '@/lib/utils';
 
 interface RegionServicesPageProps {
@@ -129,7 +129,7 @@ export default function RegionServicesPage({ region }: RegionServicesPageProps) 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white transition-all hover:bg-primary/90 hover:shadow-lg"
             >
-              <Phone className="h-5 w-5" />
+              <MessageCircle className="h-5 w-5" />
               {tCta('button')}
             </a>
           </motion.div>

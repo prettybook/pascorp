@@ -3,15 +3,13 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import {
-  Phone,
-  Mail,
   MapPin,
   Facebook,
   Instagram,
   Linkedin,
   MessageCircle,
 } from 'lucide-react';
-import { PHONE_NUMBER, PHONE_HREF, getWhatsAppUrl, LOCATIONS } from '@/lib/utils';
+import { getWhatsAppUrl, LOCATIONS } from '@/lib/utils';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -135,13 +133,15 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Phone className="mt-0.5 h-5 w-5 flex-shrink-0 text-secondary" />
+                <MessageCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-secondary" />
                 <div>
                   <a
-                    href={PHONE_HREF}
+                    href={getWhatsAppUrl()}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-gray-300 hover:text-secondary transition-colors"
                   >
-                    {PHONE_NUMBER}
+                    WhatsApp
                   </a>
                 </div>
               </li>

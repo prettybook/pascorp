@@ -7,7 +7,6 @@ export function OrganizationJsonLd() {
     url: 'https://paslegalcorp.com',
     logo: 'https://paslegalcorp.com/images/PAS-LOGO.jpg',
     image: 'https://paslegalcorp.com/images/PAS-LOGO.jpg',
-    telephone: '+1-407-818-1244',
     email: 'info@paslegalcorp.com',
     foundingDate: '2018',
     areaServed: [
@@ -73,7 +72,6 @@ export function LocalBusinessJsonLd({
       ? 'Consultores especializados en derecho migratorio'
       : 'Specialized immigration law consultants',
     url: `https://paslegalcorp.com/${locale}`,
-    telephone: '+1-407-818-1244',
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
