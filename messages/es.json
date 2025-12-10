@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "title": "PAS Legal Corp - Consultores de Inmigración",
+    "description": "Consultores especializados en derecho migratorio con oficinas en Orlando, Dubai y Jeddah. Servicios de inmigración en Estados Unidos, UAE y Arabia Saudita."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre Nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "schedule": "Agenda una consulta",
+    "servicesUSA": "Servicios en USA",
+    "servicesUAE": "Servicios en UAE",
+    "servicesSaudi": "Servicios en Arabia Saudita",
+    "servicesMiddleEast": "Medio Oriente"
+  },
+  "hero": {
+    "tagline": "Comprometidos con nuestros clientes",
+    "headline": "Somos tus consultores especializados en derecho migratorio",
+    "subtext": "Con oficinas en tres continentes: Orlando, Dubai y Jeddah",
+    "cta1": "Agenda una consulta",
+    "cta2": "Ver servicios"
+  },
+  "stats": {
+    "experience": "años de experiencia",
+    "states": "Estados atendidos",
+    "continents": "Continentes",
+    "languages": "Equipo Multilingüe"
+  },
+  "featured": {
+    "title": "Manteniendo Familias Unidas",
+    "subtitle": "El DHS implementa nuevo programa",
+    "description": "Proceso para ciertos no ciudadanos cónyuges e hijastros de ciudadanos estadounidenses",
+    "cta": "Conoce más"
+  },
+  "regions": {
+    "title": "Nuestros Servicios por Región",
+    "subtitle": "Ofrecemos servicios migratorios especializados en tres continentes",
+    "usa": {
+      "title": "Estados Unidos",
+      "description": "Servicios migratorios en los 50 estados",
+      "cta": "Ver servicios USA"
+    },
+    "uae": {
+      "title": "Emiratos Árabes Unidos",
+      "description": "Visas y servicios legales en UAE",
+      "cta": "Ver servicios UAE"
+    },
+    "saudi": {
+      "title": "Arabia Saudita",
+      "description": "Inversión y migración a territorio saudí",
+      "cta": "Ver servicios Saudi"
+    }
+  },
+  "whyUs": {
+    "title": "¿Por qué elegir PAS LEGAL CORP?",
+    "subtitle": "Tu confianza es nuestra prioridad",
+    "experienced": {
+      "title": "Equipo Experimentado",
+      "description": "En un mundo en constante cambio, entendemos la importancia de contar con un equipo legal sólido y experimentado a tu lado."
+    },
+    "multilingual": {
+      "title": "Equipo Multilingüe",
+      "description": "Nuestro equipo habla inglés, español, árabe y francés. Nos comunicamos en tu idioma preferido."
+    },
+    "global": {
+      "title": "Tres Continentes",
+      "description": "Con oficinas en Orlando, Dubai y Jeddah, estamos donde tú nos necesitas."
+    }
+  },
+  "process": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Pasos simples para lograr tus objetivos migratorios",
+    "step1": {
+      "title": "Consulta Inicial",
+      "description": "Cuéntanos tu caso y evaluamos tu situación migratoria"
+    },
+    "step2": {
+      "title": "Plan Personalizado",
+      "description": "Diseñamos una estrategia legal adaptada a tus necesidades"
+    },
+    "step3": {
+      "title": "Acompañamiento",
+      "description": "Te guiamos en cada paso hasta lograr tus objetivos"
+    }
+  },
+  "team": {
+    "title": "Conoce a nuestro equipo",
+    "subtitle": "Profesionales comprometidos con tu éxito",
+    "description": "Nuestro equipo de expertos en derecho migratorio está dedicado a brindarte el mejor servicio y asesoría para alcanzar tus metas."
+  },
+  "blog": {
+    "title": "Últimas Noticias",
+    "subtitle": "Mantente informado sobre las últimas novedades en inmigración",
+    "readMore": "Leer más",
+    "viewAll": "Ver todos los artículos"
+  },
+  "cta": {
+    "title": "¿Listo para dar el siguiente paso?",
+    "subtitle": "Contáctanos 24/7",
+    "button": "Solicita una entrevista"
+  },
+  "footer": {
+    "description": "Consultores especializados en derecho migratorio con oficinas en Orlando, Dubai y Jeddah.",
+    "servicesUSA": "Servicios USA",
+    "servicesInternational": "Servicios Internacionales",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudarte con tu proceso migratorio",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "service": "Servicio de interés",
+      "selectService": "Selecciona un servicio",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu caso...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito! Te contactaremos pronto.",
+      "error": "Hubo un error al enviar el mensaje. Por favor intenta de nuevo."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "phone": "Teléfono",
+      "email": "Email",
+      "offices": "Oficinas",
+      "hours": "Horario de Atención",
+      "hoursValue": "Lunes a Viernes: 9:00 AM - 6:00 PM"
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Conoce nuestra historia y misión",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Brindar servicios de consultoría migratoria de alta calidad, ayudando a nuestros clientes a alcanzar sus objetivos de manera legal y eficiente."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Ser la firma de consultoría migratoria líder a nivel internacional, reconocida por nuestra excelencia, integridad y compromiso con nuestros clientes."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "integrity": "Integridad",
+      "excellence": "Excelencia",
+      "commitment": "Compromiso",
+      "empathy": "Empatía"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones migratorias adaptadas a tus necesidades",
+    "requirements": "Requisitos",
+    "process": "Proceso",
+    "faq": "Preguntas Frecuentes",
+    "related": "Servicios Relacionados",
+    "contactCTA": "¿Necesitas ayuda con este servicio?",
+    "aboutService": "Acerca de este servicio",
+    "teamDescription": "Nuestro equipo de expertos te guiará durante todo el proceso, asegurando que tu solicitud sea presentada correctamente y de manera oportuna. Contamos con años de experiencia ayudando a clientes como tú a alcanzar sus metas migratorias.",
+    "ctaDescription": "Agenda una consulta gratuita y comienza tu proceso hoy mismo.",
+    "contactUs": "Contáctanos",
+    "quickResponse": "Respuesta Rápida",
+    "quickResponseDesc": "Te contactamos en menos de 24 horas",
+    "confidentiality": "Confidencialidad",
+    "confidentialityDesc": "Tu información está protegida",
+    "freeConsultation": "Consulta Gratuita",
+    "freeConsultationDesc": "Primera evaluación sin costo",
+    "requirement1": "Documento de identidad válido",
+    "requirement2": "Comprobante de domicilio",
+    "requirement3": "Documentación de respaldo",
+    "requirement4": "Formularios completados",
+    "requirement5": "Fotografías recientes",
+    "step1Title": "Consulta Inicial",
+    "step1Desc": "Evaluamos tu caso y determinamos la mejor estrategia",
+    "step2Title": "Recopilación de Documentos",
+    "step2Desc": "Te ayudamos a reunir toda la documentación necesaria",
+    "step3Title": "Preparación de la Solicitud",
+    "step3Desc": "Completamos y revisamos todos los formularios",
+    "step4Title": "Presentación y Seguimiento",
+    "step4Desc": "Enviamos tu solicitud y monitoreamos su progreso",
+    "faq1Question": "¿Cuánto tiempo toma el proceso?",
+    "faq1Answer": "El tiempo varía según el tipo de caso y las circunstancias individuales. Durante tu consulta inicial, te proporcionaremos un estimado basado en tu situación específica.",
+    "faq2Question": "¿Qué documentos necesito?",
+    "faq2Answer": "Los documentos requeridos dependen del tipo de servicio. Te proporcionaremos una lista detallada durante tu consulta.",
+    "faq3Question": "¿Ofrecen consultas virtuales?",
+    "faq3Answer": "Sí, ofrecemos consultas por videollamada para tu comodidad, sin importar tu ubicación.",
+    "notFound": "Servicio no encontrado",
+    "usa": {
+      "title": "Servicios en Estados Unidos",
+      "greenCard": {
+        "title": "Residencia Permanente (Green Card)",
+        "description": "Ayudamos en el proceso de obtención de la Green Card para residencia permanente en Estados Unidos.",
+        "slug": "residencia-permanente"
+      },
+      "workPermit": {
+        "title": "Permisos de Trabajo",
+        "description": "Asesoría para obtener autorización de empleo en Estados Unidos.",
+        "slug": "permiso-de-trabajo"
+      },
+      "familyPetition": {
+        "title": "Peticiones Familiares",
+        "description": "Reunificación familiar a través de peticiones de ciudadanos y residentes.",
+        "slug": "peticion-familiar"
+      },
+      "asylum": {
+        "title": "Asilo",
+        "description": "Protección para personas que huyen de persecución en sus países de origen.",
+        "slug": "asilo"
+      },
+      "visaU": {
+        "title": "Visa U (Víctimas de Crimen)",
+        "description": "Visa para víctimas de delitos graves que cooperan con autoridades.",
+        "slug": "visa-u"
+      },
+      "visaVAWA": {
+        "title": "Visa VAWA",
+        "description": "Auto-petición para víctimas de abuso doméstico casadas con ciudadanos o residentes.",
+        "slug": "visa-vawa"
+      },
+      "humanTrafficking": {
+        "title": "Visa de Tráfico Humano",
+        "description": "Protección para víctimas de trata de personas y explotación.",
+        "slug": "visa-trafico-humano"
+      },
+      "naturalization": {
+        "title": "Naturalización",
+        "description": "Proceso para obtener la ciudadanía estadounidense.",
+        "slug": "naturalizacion"
+      },
+      "visaEB2": {
+        "title": "Visa EB-2",
+        "description": "Visa de trabajo para profesionales con títulos avanzados.",
+        "slug": "visa-eb-2"
+      },
+      "waiver": {
+        "title": "Perdón (Waiver)",
+        "description": "Perdón para inadmisibilidades que impiden la entrada legal a EE.UU.",
+        "slug": "waiver"
+      }
+    },
+    "uae": {
+      "title": "Servicios en Emiratos Árabes Unidos",
+      "goldenVisa": {
+        "title": "Visa Golden",
+        "description": "Residencia a largo plazo para inversores y profesionales destacados en UAE.",
+        "slug": "visa-golden"
+      },
+      "workVisa": {
+        "title": "Visa de Trabajo",
+        "description": "Autorización de empleo en los Emiratos Árabes Unidos.",
+        "slug": "visa-de-trabajo"
+      },
+      "businessVisa": {
+        "title": "Visa de Negocios",
+        "description": "Visa para actividades comerciales y empresariales en UAE.",
+        "slug": "visa-de-negocios"
+      },
+      "touristVisa": {
+        "title": "Visa de Turista",
+        "description": "Visa para visitas turísticas a los Emiratos Árabes Unidos.",
+        "slug": "visa-de-turista"
+      },
+      "translations": {
+        "title": "Traducciones Legales",
+        "description": "Servicios de traducción certificada de documentos legales.",
+        "slug": "traducciones-legales"
+      }
+    },
+    "saudi": {
+      "title": "Servicios en Arabia Saudita",
+      "goldenVisa": {
+        "title": "Golden Visa",
+        "description": "Residencia premium para inversores y talentos excepcionales.",
+        "slug": "golden-visa"
+      },
+      "workVisa": {
+        "title": "Visa de Trabajo",
+        "description": "Autorización de empleo en el Reino de Arabia Saudita.",
+        "slug": "visa-de-trabajo"
+      },
+      "businessVisa": {
+        "title": "Visa de Negocios",
+        "description": "Visa para actividades comerciales en Arabia Saudita.",
+        "slug": "visa-de-negocios"
+      },
+      "translations": {
+        "title": "Traducciones Legales",
+        "description": "Servicios de traducción certificada de documentos.",
+        "slug": "traducciones-legales"
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-800 antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-primary;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold leading-tight;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl font-bold;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-primary-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg bg-secondary px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-secondary-600 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-lg border-2 border-primary bg-transparent px-6 py-3 text-sm font-semibold text-primary transition-all duration-300 hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+
+  .btn-white {
+    @apply inline-flex items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-primary transition-all duration-300 hover:bg-gray-100 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-28;
+  }
+
+  .section-title {
+    @apply mb-4 text-3xl font-bold md:text-4xl leading-tight;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-gray-600 md:text-xl leading-relaxed;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl;
+  }
+
+  .card-hover {
+    @apply transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .link-hover {
+    @apply transition-colors duration-300 hover:text-secondary;
+  }
+
+  .accent-underline {
+    @apply relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-secondary after:content-[''];
+  }
+
+  .overlay-dark {
+    @apply absolute inset-0 bg-primary/70;
+  }
+
+  .overlay-gradient {
+    @apply absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/60;
+  }
+
+  /* Prose Styles for Blog Content */
+  .prose {
+    @apply text-gray-700;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-bold text-primary mt-8 mb-4;
+  }
+
+  .prose h3 {
+    @apply text-xl font-bold text-primary mt-6 mb-3;
+  }
+
+  .prose p {
+    @apply mb-4 leading-relaxed;
+  }
+
+  .prose ul {
+    @apply list-disc pl-6 mb-4 space-y-2;
+  }
+
+  .prose li {
+    @apply text-gray-700;
+  }
+
+  .prose strong {
+    @apply font-semibold text-primary;
+  }
+
+  /* Form Elements */
+  .form-input {
+    @apply w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-700 transition-all duration-200 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20;
+  }
+
+  .form-textarea {
+    @apply w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-700 transition-all duration-200 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Glass effect */
+  .glass {
+    @apply bg-white/80 backdrop-blur-md;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+}

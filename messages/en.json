@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "title": "PAS Legal Corp - Immigration Consultants",
+    "description": "Specialized immigration law consultants with offices in Orlando, Dubai, and Jeddah. Immigration services in the United States, UAE, and Saudi Arabia."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "schedule": "Schedule a consultation",
+    "servicesUSA": "USA Services",
+    "servicesUAE": "UAE Services",
+    "servicesSaudi": "Saudi Arabia Services",
+    "servicesMiddleEast": "Middle East"
+  },
+  "hero": {
+    "tagline": "Committed to our clients",
+    "headline": "We are your specialized immigration law consultants",
+    "subtext": "With offices on three continents: Orlando, Dubai, and Jeddah",
+    "cta1": "Schedule a consultation",
+    "cta2": "View services"
+  },
+  "stats": {
+    "experience": "years of experience",
+    "states": "States served",
+    "continents": "Continents",
+    "languages": "Multilingual Team"
+  },
+  "featured": {
+    "title": "Keeping Families Together",
+    "subtitle": "DHS implements new program",
+    "description": "Process for certain noncitizen spouses and stepchildren of U.S. citizens",
+    "cta": "Learn more"
+  },
+  "regions": {
+    "title": "Our Services by Region",
+    "subtitle": "We offer specialized immigration services across three continents",
+    "usa": {
+      "title": "United States",
+      "description": "Immigration services in all 50 states",
+      "cta": "View USA services"
+    },
+    "uae": {
+      "title": "United Arab Emirates",
+      "description": "Visas and legal services in UAE",
+      "cta": "View UAE services"
+    },
+    "saudi": {
+      "title": "Saudi Arabia",
+      "description": "Investment and migration to Saudi territory",
+      "cta": "View Saudi services"
+    }
+  },
+  "whyUs": {
+    "title": "Why choose PAS LEGAL CORP?",
+    "subtitle": "Your trust is our priority",
+    "experienced": {
+      "title": "Experienced Team",
+      "description": "In an ever-changing world, we understand the importance of having a solid and experienced legal team by your side."
+    },
+    "multilingual": {
+      "title": "Multilingual Team",
+      "description": "Our team speaks English, Spanish, Arabic, and French. We communicate in your preferred language."
+    },
+    "global": {
+      "title": "Three Continents",
+      "description": "With offices in Orlando, Dubai, and Jeddah, we are where you need us."
+    }
+  },
+  "process": {
+    "title": "Our Process",
+    "subtitle": "Simple steps to achieve your immigration goals",
+    "step1": {
+      "title": "Initial Consultation",
+      "description": "Tell us about your case and we evaluate your immigration situation"
+    },
+    "step2": {
+      "title": "Personalized Plan",
+      "description": "We design a legal strategy tailored to your needs"
+    },
+    "step3": {
+      "title": "Guidance",
+      "description": "We guide you every step of the way until you achieve your goals"
+    }
+  },
+  "team": {
+    "title": "Meet our team",
+    "subtitle": "Professionals committed to your success",
+    "description": "Our team of immigration law experts is dedicated to providing you with the best service and advice to achieve your goals."
+  },
+  "blog": {
+    "title": "Latest News",
+    "subtitle": "Stay informed about the latest immigration news",
+    "readMore": "Read more",
+    "viewAll": "View all articles"
+  },
+  "cta": {
+    "title": "Ready to take the next step?",
+    "subtitle": "Contact us 24/7",
+    "button": "Request an interview"
+  },
+  "footer": {
+    "description": "Specialized immigration law consultants with offices in Orlando, Dubai, and Jeddah.",
+    "servicesUSA": "USA Services",
+    "servicesInternational": "International Services",
+    "contact": "Contact",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help you with your immigration process",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone",
+      "service": "Service of interest",
+      "selectService": "Select a service",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your case...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We will contact you soon.",
+      "error": "There was an error sending the message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": "Phone",
+      "email": "Email",
+      "offices": "Offices",
+      "hours": "Business Hours",
+      "hoursValue": "Monday to Friday: 9:00 AM - 6:00 PM"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Learn about our history and mission",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide high-quality immigration consulting services, helping our clients achieve their goals legally and efficiently."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading international immigration consulting firm, recognized for our excellence, integrity, and commitment to our clients."
+    },
+    "values": {
+      "title": "Our Values",
+      "integrity": "Integrity",
+      "excellence": "Excellence",
+      "commitment": "Commitment",
+      "empathy": "Empathy"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Immigration solutions tailored to your needs",
+    "requirements": "Requirements",
+    "process": "Process",
+    "faq": "Frequently Asked Questions",
+    "related": "Related Services",
+    "contactCTA": "Need help with this service?",
+    "aboutService": "About this service",
+    "teamDescription": "Our team of experts will guide you through the entire process, ensuring your application is submitted correctly and on time. We have years of experience helping clients like you achieve their immigration goals.",
+    "ctaDescription": "Schedule a free consultation and start your process today.",
+    "contactUs": "Contact Us",
+    "quickResponse": "Quick Response",
+    "quickResponseDesc": "We contact you within 24 hours",
+    "confidentiality": "Confidentiality",
+    "confidentialityDesc": "Your information is protected",
+    "freeConsultation": "Free Consultation",
+    "freeConsultationDesc": "First evaluation at no cost",
+    "requirement1": "Valid identification document",
+    "requirement2": "Proof of address",
+    "requirement3": "Supporting documentation",
+    "requirement4": "Completed forms",
+    "requirement5": "Recent photographs",
+    "step1Title": "Initial Consultation",
+    "step1Desc": "We evaluate your case and determine the best strategy",
+    "step2Title": "Document Collection",
+    "step2Desc": "We help you gather all the necessary documentation",
+    "step3Title": "Application Preparation",
+    "step3Desc": "We complete and review all forms",
+    "step4Title": "Submission and Follow-up",
+    "step4Desc": "We submit your application and monitor its progress",
+    "faq1Question": "How long does the process take?",
+    "faq1Answer": "The time varies depending on the type of case and individual circumstances. During your initial consultation, we will provide an estimate based on your specific situation.",
+    "faq2Question": "What documents do I need?",
+    "faq2Answer": "The required documents depend on the type of service. We will provide a detailed list during your consultation.",
+    "faq3Question": "Do you offer virtual consultations?",
+    "faq3Answer": "Yes, we offer video call consultations for your convenience, regardless of your location.",
+    "notFound": "Service not found",
+    "usa": {
+      "title": "Services in the United States",
+      "greenCard": {
+        "title": "Permanent Residence (Green Card)",
+        "description": "We help in the process of obtaining the Green Card for permanent residence in the United States.",
+        "slug": "permanent-residence"
+      },
+      "workPermit": {
+        "title": "Work Permits",
+        "description": "Advice for obtaining employment authorization in the United States.",
+        "slug": "work-permit"
+      },
+      "familyPetition": {
+        "title": "Family Petitions",
+        "description": "Family reunification through petitions from citizens and residents.",
+        "slug": "family-petition"
+      },
+      "asylum": {
+        "title": "Asylum",
+        "description": "Protection for people fleeing persecution in their home countries.",
+        "slug": "asylum"
+      },
+      "visaU": {
+        "title": "U Visa (Crime Victims)",
+        "description": "Visa for victims of serious crimes who cooperate with authorities.",
+        "slug": "u-visa"
+      },
+      "visaVAWA": {
+        "title": "VAWA Visa",
+        "description": "Self-petition for victims of domestic abuse married to citizens or residents.",
+        "slug": "vawa-visa"
+      },
+      "humanTrafficking": {
+        "title": "Human Trafficking Visa",
+        "description": "Protection for victims of human trafficking and exploitation.",
+        "slug": "human-trafficking-visa"
+      },
+      "naturalization": {
+        "title": "Naturalization",
+        "description": "Process to obtain U.S. citizenship.",
+        "slug": "naturalization"
+      },
+      "visaEB2": {
+        "title": "EB-2 Visa",
+        "description": "Work visa for professionals with advanced degrees.",
+        "slug": "eb-2-visa"
+      },
+      "waiver": {
+        "title": "Waiver",
+        "description": "Forgiveness for inadmissibilities that prevent legal entry to the U.S.",
+        "slug": "waiver"
+      }
+    },
+    "uae": {
+      "title": "Services in the United Arab Emirates",
+      "goldenVisa": {
+        "title": "Golden Visa",
+        "description": "Long-term residence for investors and outstanding professionals in UAE.",
+        "slug": "golden-visa"
+      },
+      "workVisa": {
+        "title": "Work Visa",
+        "description": "Employment authorization in the United Arab Emirates.",
+        "slug": "work-visa"
+      },
+      "businessVisa": {
+        "title": "Business Visa",
+        "description": "Visa for commercial and business activities in UAE.",
+        "slug": "business-visa"
+      },
+      "touristVisa": {
+        "title": "Tourist Visa",
+        "description": "Visa for tourist visits to the United Arab Emirates.",
+        "slug": "tourist-visa"
+      },
+      "translations": {
+        "title": "Legal Translations",
+        "description": "Certified translation services for legal documents.",
+        "slug": "legal-translations"
+      }
+    },
+    "saudi": {
+      "title": "Services in Saudi Arabia",
+      "goldenVisa": {
+        "title": "Golden Visa",
+        "description": "Premium residence for investors and exceptional talents.",
+        "slug": "golden-visa"
+      },
+      "workVisa": {
+        "title": "Work Visa",
+        "description": "Employment authorization in the Kingdom of Saudi Arabia.",
+        "slug": "work-visa"
+      },
+      "businessVisa": {
+        "title": "Business Visa",
+        "description": "Visa for commercial activities in Saudi Arabia.",
+        "slug": "business-visa"
+      },
+      "translations": {
+        "title": "Legal Translations",
+        "description": "Certified document translation services.",
+        "slug": "legal-translations"
+      }
+    }
+  }
+}
