@@ -26,11 +26,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Send email using Resend - clean email address from any whitespace/newlines
+    // Send email using Resend - clean email addresses from any whitespace/newlines
     const contactEmail = (process.env.CONTACT_EMAIL || 'info@paslegalcorp.com').replace(/\s+/g, '');
     const { data, error } = await resend.emails.send({
       from: 'PAS Legal Corp <noreply@message.pascorpusa.com>',
-      to: [contactEmail],
+      to: [contactEmail, 'paslegalcorp@gmail.com'],
       replyTo: email,
       subject: `Nueva consulta de ${name} - ${service || 'General'}`,
       html: `
