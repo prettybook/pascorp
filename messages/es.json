@@ -152,6 +152,37 @@
       "excellence": "Excelencia",
       "commitment": "Compromiso",
       "empathy": "Empatía"
+    },
+    "founders": {
+      "title": "Nuestros Fundadores",
+      "subtitle": "Experiencia y pasión al servicio de tu futuro",
+      "description": "PAS Legal Corp fue fundada por profesionales colombianos con más de 9 años de experiencia en procesos migratorios. Nuestra profunda comprensión de los desafíos que enfrentan los inmigrantes, combinada con nuestra formación profesional y experiencia internacional, nos permite ofrecer un servicio excepcional y personalizado.",
+      "highlight1": "Profesionales colombianos",
+      "highlight2": "+9 años de experiencia",
+      "highlight3": "Miles de casos exitosos"
+    },
+    "expertise": {
+      "title": "Expertos en Inmigración",
+      "description1": "PAS Legal Corp nació con la misión de ayudar a familias e individuos a alcanzar sus sueños migratorios. Con oficinas estratégicamente ubicadas en Orlando, Dubai y Jeddah, ofrecemos servicios de consultoría migratoria de primera clase.",
+      "description2": "Nuestro equipo de profesionales altamente capacitados combina amplia experiencia con un profundo entendimiento de las diferentes culturas y sistemas migratorios, lo que nos permite ofrecer soluciones personalizadas y efectivas."
+    },
+    "features": {
+      "multilingual": "Equipo multilingüe (ES, EN, AR, FR)",
+      "experience": "Más de 9 años de experiencia",
+      "continents": "Presencia en 3 continentes",
+      "personalized": "Atención personalizada",
+      "virtual": "Consultas virtuales disponibles",
+      "tracking": "Seguimiento constante de tu caso"
+    },
+    "global": {
+      "title": "Presencia Global",
+      "subtitle": "Tres continentes, un mismo compromiso"
+    },
+    "cta": {
+      "title": "¿Listo para comenzar tu proceso?",
+      "description": "Agenda una consulta con nuestro equipo y da el primer paso hacia tus objetivos migratorios.",
+      "button": "Agenda una consulta",
+      "services": "Ver servicios"
     }
   },
   "services": {

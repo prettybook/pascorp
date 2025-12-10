@@ -152,6 +152,37 @@
       "excellence": "Excellence",
       "commitment": "Commitment",
       "empathy": "Empathy"
+    },
+    "founders": {
+      "title": "Our Founders",
+      "subtitle": "Experience and passion at the service of your future",
+      "description": "PAS Legal Corp was founded by Colombian professionals with over 9 years of experience in immigration processes. Our deep understanding of the challenges immigrants face, combined with our professional training and international experience, allows us to offer exceptional and personalized service.",
+      "highlight1": "Colombian professionals",
+      "highlight2": "9+ years of experience",
+      "highlight3": "Thousands of successful cases"
+    },
+    "expertise": {
+      "title": "Immigration Experts",
+      "description1": "PAS Legal Corp was born with the mission of helping families and individuals achieve their immigration dreams. With offices strategically located in Orlando, Dubai, and Jeddah, we offer first-class immigration consulting services.",
+      "description2": "Our team of highly trained professionals combines extensive experience with a deep understanding of different cultures and immigration systems, allowing us to offer personalized and effective solutions."
+    },
+    "features": {
+      "multilingual": "Multilingual team (ES, EN, AR, FR)",
+      "experience": "Over 9 years of experience",
+      "continents": "Presence on 3 continents",
+      "personalized": "Personalized attention",
+      "virtual": "Virtual consultations available",
+      "tracking": "Constant case follow-up"
+    },
+    "global": {
+      "title": "Global Presence",
+      "subtitle": "Three continents, one commitment"
+    },
+    "cta": {
+      "title": "Ready to start your process?",
+      "description": "Schedule a consultation with our team and take the first step towards your immigration goals.",
+      "button": "Schedule a consultation",
+      "services": "View services"
     }
   },
   "services": {

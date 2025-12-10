@@ -15,7 +15,7 @@ export default function BlogPreviewSection() {
       excerpt:
         'Análisis de las políticas migratorias actuales y cómo afectan a los inmigrantes en Estados Unidos.',
       image:
-        'https://images.unsplash.com/photo-1569025743873-ea3a9ber63f7?q=80&w=2070&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1551522435-a13afa10f103?q=80&w=2070&auto=format&fit=crop',
       date: '2024-01-15',
     },
     {

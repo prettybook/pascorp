@@ -11,12 +11,14 @@ import {
   Globe,
   CheckCircle,
   ArrowRight,
+  GraduationCap,
+  Clock,
+  Trophy,
 } from 'lucide-react';
 import { getWhatsAppUrl } from '@/lib/utils';
 
 export default function AboutPageContent() {
   const t = useTranslations('about');
-  const tStats = useTranslations('stats');
 
   const values = [
     { key: 'integrity', icon: Shield },
@@ -26,12 +28,18 @@ export default function AboutPageContent() {
   ];
 
   const features = [
-    'Equipo multilingüe (ES, EN, AR, FR)',
-    'Más de 6 años de experiencia',
-    'Presencia en 3 continentes',
-    'Atención personalizada',
-    'Consultas virtuales disponibles',
-    'Seguimiento constante de tu caso',
+    { key: 'multilingual', text: t('features.multilingual') },
+    { key: 'experience', text: t('features.experience') },
+    { key: 'continents', text: t('features.continents') },
+    { key: 'personalized', text: t('features.personalized') },
+    { key: 'virtual', text: t('features.virtual') },
+    { key: 'tracking', text: t('features.tracking') },
+  ];
+
+  const founderHighlights = [
+    { icon: GraduationCap, text: t('founders.highlight1') },
+    { icon: Clock, text: t('founders.highlight2') },
+    { icon: Trophy, text: t('founders.highlight3') },
   ];
 
   return (
@@ -111,29 +119,80 @@ export default function AboutPageContent() {
               viewport={{ once: true }}
             >
               <h2 className="section-title mb-6">
-                Expertos en Inmigración
+                {t('expertise.title')}
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                PAS Legal Corp nació con la misión de ayudar a familias e individuos
-                a alcanzar sus sueños migratorios. Con oficinas estratégicamente
-                ubicadas en Orlando, Dubai y Jeddah, ofrecemos servicios de
-                consultoría migratoria de primera clase.
+                {t('expertise.description1')}
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Nuestro equipo de profesionales altamente capacitados combina
-                amplia experiencia con un profundo entendimiento de las diferentes
-                culturas y sistemas migratorios, lo que nos permite ofrecer
-                soluciones personalizadas y efectivas.
+                {t('expertise.description2')}
               </p>
 
               <ul className="grid gap-3 sm:grid-cols-2">
-                {features.map((feature, index) => (
-                  <li key={index} className="flex items-center gap-2">
+                {features.map((feature) => (
+                  <li key={feature.key} className="flex items-center gap-2">
                     <CheckCircle className="h-5 w-5 text-secondary flex-shrink-0" />
-                    <span className="text-gray-700">{feature}</span>
+                    <span className="text-gray-700">{feature.text}</span>
                   </li>
                 ))}
               </ul>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founders */}
+      <section className="section-padding">
+        <div className="container-custom">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <span className="inline-block px-4 py-1 rounded-full bg-secondary/10 text-secondary font-medium text-sm mb-4">
+                {t('founders.subtitle')}
+              </span>
+              <h2 className="section-title mb-6">
+                {t('founders.title')}
+              </h2>
+              <p className="text-gray-600 mb-8 leading-relaxed text-lg">
+                {t('founders.description')}
+              </p>
+
+              <div className="grid gap-4 sm:grid-cols-3">
+                {founderHighlights.map((highlight, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: index * 0.1 }}
+                    className="flex flex-col items-center text-center p-4 rounded-xl bg-gray-50"
+                  >
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary mb-3">
+                      <highlight.icon className="h-6 w-6 text-white" />
+                    </div>
+                    <span className="text-sm font-semibold text-primary">{highlight.text}</span>
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="relative"
+            >
+              <div className="relative overflow-hidden rounded-2xl shadow-xl">
+                <img
+                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop"
+                  alt="PAS Legal Corp Founders"
+                  className="h-[500px] w-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-6 -left-6 -z-10 h-full w-full rounded-2xl bg-primary/20" />
             </motion.div>
           </div>
         </div>
@@ -183,10 +242,10 @@ export default function AboutPageContent() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Presencia Global
+              {t('global.title')}
             </h2>
             <p className="text-gray-300 text-lg">
-              Tres continentes, un mismo compromiso
+              {t('global.subtitle')}
             </p>
           </motion.div>
 
@@ -238,11 +297,10 @@ export default function AboutPageContent() {
             className="rounded-2xl bg-gray-50 p-8 md:p-12 text-center"
           >
             <h2 className="text-3xl font-bold text-primary mb-4">
-              ¿Listo para comenzar tu proceso?
+              {t('cta.title')}
             </h2>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              Agenda una consulta con nuestro equipo y da el primer paso hacia tus
-              objetivos migratorios.
+              {t('cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -251,14 +309,14 @@ export default function AboutPageContent() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-md bg-secondary px-8 py-4 font-semibold text-white transition-all hover:bg-secondary-600"
               >
-                Agenda una consulta
+                {t('cta.button')}
                 <ArrowRight className="h-5 w-5" />
               </a>
               <Link
                 href="/servicios"
                 className="inline-flex items-center gap-2 rounded-md border-2 border-primary bg-transparent px-8 py-4 font-semibold text-primary transition-all hover:bg-primary hover:text-white"
               >
-                Ver servicios
+                {t('cta.services')}
               </Link>
             </div>
           </motion.div>
