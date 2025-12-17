@@ -30,7 +30,6 @@ export default function AboutPageContent() {
   const features = [
     { key: 'multilingual', text: t('features.multilingual') },
     { key: 'experience', text: t('features.experience') },
-    { key: 'continents', text: t('features.continents') },
     { key: 'personalized', text: t('features.personalized') },
     { key: 'virtual', text: t('features.virtual') },
     { key: 'tracking', text: t('features.tracking') },
