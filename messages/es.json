@@ -18,14 +18,13 @@
   "hero": {
     "tagline": "Comprometidos con nuestros clientes",
     "headline": "Somos tus consultores especializados en inmigración",
-    "subtext": "Con oficinas en tres continentes: Orlando, Dubai y Jeddah",
+    "subtext": "Con oficinas en Orlando, Dubai y Jeddah al servicio de tu futuro",
     "cta1": "Agenda una consulta",
     "cta2": "Ver servicios"
   },
   "stats": {
     "experience": "años de experiencia",
     "states": "Estados atendidos",
-    "continents": "Continentes",
     "languages": "Equipo Multilingüe"
   },
   "featured": {
@@ -36,7 +35,7 @@
   },
   "regions": {
     "title": "Nuestros Servicios por Región",
-    "subtitle": "Ofrecemos servicios migratorios especializados en tres continentes",
+    "subtitle": "Ofrecemos servicios migratorios especializados a nivel global",
     "usa": {
       "title": "Estados Unidos",
       "description": "Servicios migratorios en los 50 estados",
@@ -54,6 +53,7 @@
     }
   },
   "whyUs": {
+    "tagline": "Por qué elegirnos",
     "title": "¿Por qué elegir PAS LEGAL CORP?",
     "subtitle": "Tu confianza es nuestra prioridad",
     "experienced": {
@@ -65,8 +65,13 @@
       "description": "Nuestro equipo habla inglés, español, árabe y francés. Nos comunicamos en tu idioma preferido."
     },
     "global": {
-      "title": "Tres Continentes",
+      "title": "Presencia Global",
       "description": "Con oficinas en Orlando, Dubai y Jeddah, estamos donde tú nos necesitas."
+    },
+    "stats": {
+      "experience": "Años de experiencia",
+      "states": "Estados atendidos",
+      "languages": "Idiomas"
     }
   },
   "process": {
@@ -169,14 +174,13 @@
     "features": {
       "multilingual": "Equipo multilingüe (ES, EN, AR, FR)",
       "experience": "Más de 9 años de experiencia",
-      "continents": "Presencia en 3 continentes",
       "personalized": "Atención personalizada",
       "virtual": "Consultas virtuales disponibles",
       "tracking": "Seguimiento constante de tu caso"
     },
     "global": {
       "title": "Presencia Global",
-      "subtitle": "Tres continentes, un mismo compromiso"
+      "subtitle": "Un equipo global, un mismo compromiso"
     },
     "cta": {
       "title": "¿Listo para comenzar tu proceso?",

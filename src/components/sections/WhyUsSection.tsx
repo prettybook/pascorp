@@ -36,7 +36,7 @@ export default function WhyUsSection() {
             viewport={{ once: true }}
           >
             <span className="inline-block mb-4 text-sm font-semibold text-secondary uppercase tracking-wider">
-              Por qué elegirnos
+              {t('tagline')}
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6 leading-tight">
               {t('title')}
@@ -48,16 +48,16 @@ export default function WhyUsSection() {
             {/* Stats Row */}
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-gray-200">
               <div>
-                <p className="text-3xl font-bold text-primary">15+</p>
-                <p className="text-sm text-gray-500">Años de experiencia</p>
+                <p className="text-3xl font-bold text-primary">9+</p>
+                <p className="text-sm text-gray-500">{t('stats.experience')}</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-primary">98%</p>
-                <p className="text-sm text-gray-500">Casos exitosos</p>
+                <p className="text-3xl font-bold text-primary">50</p>
+                <p className="text-sm text-gray-500">{t('stats.states')}</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-primary">3</p>
-                <p className="text-sm text-gray-500">Continentes</p>
+                <p className="text-3xl font-bold text-primary">4</p>
+                <p className="text-sm text-gray-500">{t('stats.languages')}</p>
               </div>
             </div>
           </motion.div>

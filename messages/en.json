@@ -18,14 +18,13 @@
   "hero": {
     "tagline": "Committed to our clients",
     "headline": "We are your specialized immigration consultants",
-    "subtext": "With offices on three continents: Orlando, Dubai, and Jeddah",
+    "subtext": "With offices in Orlando, Dubai, and Jeddah at the service of your future",
     "cta1": "Schedule a consultation",
     "cta2": "View services"
   },
   "stats": {
     "experience": "years of experience",
     "states": "States served",
-    "continents": "Continents",
     "languages": "Multilingual Team"
   },
   "featured": {
@@ -36,7 +35,7 @@
   },
   "regions": {
     "title": "Our Services by Region",
-    "subtitle": "We offer specialized immigration services across three continents",
+    "subtitle": "We offer specialized immigration services globally",
     "usa": {
       "title": "United States",
       "description": "Immigration services in all 50 states",
@@ -54,6 +53,7 @@
     }
   },
   "whyUs": {
+    "tagline": "Why choose us",
     "title": "Why choose PAS LEGAL CORP?",
     "subtitle": "Your trust is our priority",
     "experienced": {
@@ -65,8 +65,13 @@
       "description": "Our team speaks English, Spanish, Arabic, and French. We communicate in your preferred language."
     },
     "global": {
-      "title": "Three Continents",
+      "title": "Global Presence",
       "description": "With offices in Orlando, Dubai, and Jeddah, we are where you need us."
+    },
+    "stats": {
+      "experience": "Years of experience",
+      "states": "States served",
+      "languages": "Languages"
     }
   },
   "process": {
@@ -169,14 +174,13 @@
     "features": {
       "multilingual": "Multilingual team (ES, EN, AR, FR)",
       "experience": "Over 9 years of experience",
-      "continents": "Presence on 3 continents",
       "personalized": "Personalized attention",
       "virtual": "Virtual consultations available",
       "tracking": "Constant case follow-up"
     },
     "global": {
       "title": "Global Presence",
-      "subtitle": "Three continents, one commitment"
+      "subtitle": "One global team, one commitment"
     },
     "cta": {
       "title": "Ready to start your process?",

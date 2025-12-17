@@ -70,7 +70,7 @@ export default function StatsSection() {
   return (
     <section className="bg-primary py-12 md:py-16">
       <div className="container-custom">
-        <div className="grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-8">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 lg:gap-24">
           {stats.map((stat, index) => (
             <motion.div
               key={index}
