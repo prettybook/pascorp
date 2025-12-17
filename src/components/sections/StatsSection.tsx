@@ -51,7 +51,7 @@ export default function StatsSection() {
 
   const stats = [
     {
-      value: 6,
+      value: 9,
       suffix: '+',
       label: t('experience'),
     },
@@ -59,11 +59,6 @@ export default function StatsSection() {
       value: 50,
       suffix: '',
       label: t('states'),
-    },
-    {
-      value: 3,
-      suffix: '',
-      label: t('continents'),
     },
     {
       value: 4,
