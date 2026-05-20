@@ -8,10 +8,16 @@ import {
   MapPin,
   Clock,
   MessageCircle,
+  Phone,
   Send,
   CheckCircle,
 } from 'lucide-react';
-import { getWhatsAppUrl, LOCATIONS } from '@/lib/utils';
+import {
+  getWhatsAppUrl,
+  LOCATIONS,
+  PHONE_NUMBER_DISPLAY,
+  PHONE_NUMBER_TEL,
+} from '@/lib/utils';
 
 interface FormData {
   name: string;
@@ -280,6 +286,24 @@ export default function ContactPageContent() {
                 </h2>
 
                 <div className="space-y-6">
+                  {/* Phone */}
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-secondary/10">
+                      <Phone className="h-6 w-6 text-secondary" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-primary">
+                        {t('info.phone')}
+                      </h3>
+                      <a
+                        href={`tel:${PHONE_NUMBER_TEL}`}
+                        className="text-gray-600 hover:text-secondary transition-colors"
+                      >
+                        {PHONE_NUMBER_DISPLAY}
+                      </a>
+                    </div>
+                  </div>
+
                   {/* WhatsApp */}
                   <div className="flex items-start gap-4">
                     <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-green-100">
@@ -293,7 +317,7 @@ export default function ContactPageContent() {
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-green-600 transition-colors"
                       >
-                        Enviar mensaje
+                        {PHONE_NUMBER_DISPLAY}
                       </a>
                     </div>
                   </div>

@@ -4,13 +4,19 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import {
   MapPin,
+  Phone,
   // Facebook,  // später ergänzen
   Instagram,
   // Linkedin,  // später ergänzen
   MessageCircle,
   Youtube,
 } from 'lucide-react';
-import { getWhatsAppUrl, LOCATIONS } from '@/lib/utils';
+import {
+  getWhatsAppUrl,
+  LOCATIONS,
+  PHONE_NUMBER_DISPLAY,
+  PHONE_NUMBER_TEL,
+} from '@/lib/utils';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -147,6 +153,17 @@ export default function Footer() {
               {t('contact')}
             </h4>
             <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <Phone className="mt-0.5 h-5 w-5 flex-shrink-0 text-secondary" />
+                <div>
+                  <a
+                    href={`tel:${PHONE_NUMBER_TEL}`}
+                    className="text-sm text-gray-300 hover:text-secondary transition-colors"
+                  >
+                    {PHONE_NUMBER_DISPLAY}
+                  </a>
+                </div>
+              </li>
               <li className="flex items-start gap-3">
                 <MessageCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-secondary" />
                 <div>

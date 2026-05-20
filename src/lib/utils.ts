@@ -5,7 +5,9 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const WHATSAPP_NUMBER = '16893179213';
+export const WHATSAPP_NUMBER = '34603809153';
+export const PHONE_NUMBER_DISPLAY = '+34 603 809 153';
+export const PHONE_NUMBER_TEL = '+34603809153';
 export const WHATSAPP_URL = `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}`;
 
 export function getWhatsAppUrl(message?: string) {
